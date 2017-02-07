@@ -1,0 +1,45 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  /* Margin bottom by footer height */
+  /*margin-bottom: 60px;*/
+}
+.content {
+    margin: 10px 100px 0px 50px;
+}
+
+.footerlink a {color: white; text-decoration:none;}
+#footersearch {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+    padding: 2px;
+  /* Set the fixed height of the footer here */
+  height: 28px;
+  background-color: royalblue;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 30px 15px 0;
+}
+.footer-block { margin: 20px 0; }
+
+#footer > .container, #footersearch > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+#toTop{
+	position: fixed;
+	bottom: 80px;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+}

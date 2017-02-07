@@ -1,0 +1,118 @@
+.text {
+    padding: 5px 10px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    width: 100px;
+    height: 42px;
+    border: 1px solid #ddd;
+    color: #333;
+    background: url(../img/bginput.jpg) repeat-x bottom #fff;
+    position: relative;
+    z-index: 2;
+}
+
+body {
+    background-image: url(../img/backrepeat.jpg);
+}
+
+.sortpanel {
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sortpanel ul {
+    list-style-type: none;
+}
+
+.sortpanel ul li {
+    display: inline;
+}
+
+.results {
+    width:85%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.tile {
+    width: 180px;
+    height: auto;
+    margin: 10px;
+    border-radius: 6px;
+    float: left;
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+}
+
+
+@media screen and (orientation:portrait) {
+    .tile {
+         margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+}
+.i {
+    text-align: center;
+    padding: 5px;
+    height: 170px;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+     border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    white-space: nowrap;
+    /*filter: gray; /* IE6-9 */
+    /*  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    
+}
+.fg {
+    height: 170;
+    padding: 5px;
+   
+    
+    
+    text-align: center; margin: 1em 0;
+}
+ 
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.i img { border-radius: 4px; 
+         max-height: 160px; max-width: 150px;
+         vertical-align: middle;}
+
+.det {
+    background-color: azure;
+    border-radius: 6px;
+}
+
+.tile .det table td {
+    color: slateblue;
+    padding: 5px;
+    text-align: center;
+}
+.message {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    color:white;
+    line-height: 1.4;
+}
+#toTop {
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+    }
+    

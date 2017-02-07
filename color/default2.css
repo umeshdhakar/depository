@@ -1,0 +1,74 @@
+a:hover,
+a:focus {
+    color: dodgerblue;
+}
+
+#navigation {
+	border-top: 5px solid dodgerblue;
+}
+
+a,.tp-caption a.btn:hover {
+	color: dodgerblue;
+}
+.top-nav-collapse {
+	background: dodgerblue;
+}
+
+.carousel-indicators .active {
+    background-color: dodgerblue;
+}
+
+.header-text h2 span {
+    background-color: dodgerblue;
+}
+
+
+.navbar-custom ul.nav ul.dropdown-menu li a:hover {
+	color: dodgerblue;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background-color: dodgerblue;
+}
+
+.widget-avatar .avatar:hover {
+    border: 5px solid dodgerblue;
+}
+
+.bg-skin {
+	background: dodgerblue;
+}
+
+.highlight-color {
+	background-color: dodgerblue;
+}
+
+.service-box:hover {
+	border-bottom: 2px solid dodgerblue;
+}
+
+
+
+form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
+	border-color: dodgerblue;
+}
+form.search-form input:focus {
+	border-color: dodgerblue;
+}
+
+/* footer */
+ul.footer-menu li a:hover {
+	color: dodgerblue;
+}
+
+footer a.totop:hover {
+	color: dodgerblue;
+}
+
+
+.btn-skin {
+  color: #fff;
+  background-color: dodgerblue;
+  border-color: dodgerblue;
+}
